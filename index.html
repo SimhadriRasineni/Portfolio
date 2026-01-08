@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simhadri Rasineni | Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="nav-container">
+            <h2>Simhadri Rasineni</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#hackathons">Hackathons</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Simhadri Rasineni</h1>
+        <h3>Aspiring SDE | Java Full-Stack Developer</h3>
+        <p>
+            B.Tech CSE | CGPA 9.2/10 |
+            <strong>Smart India Hackathon 2024 Winner</strong> |
+            Rooman Technologies Trainee
+        </p>
+        <div class="btn-group">
+            <a href="#projects" class="btn-primary">View Projects</a>
+            <a href="#contact" class="btn-secondary">Contact Me</a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+        <p>
+            Final-year B.Tech Computer Science student with strong fundamentals in
+            Java, Spring Boot, and backend development. Passionate about building
+            scalable, secure, and maintainable web applications.
+        </p>
+        <p>
+            Currently training at Rooman Technologies. Actively preparing for
+            Software Development Engineer roles with focus on DSA, system design basics,
+            and real-world project development.
+        </p>
+
+        <div class="about-stats">
+            <div><strong>9.2</strong> CGPA</div>
+            <div><strong>5+</strong> Projects</div>
+            <div><strong>3</strong> Internships</div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>Java</li>
+                <li>C, C++</li>
+                <li>Python (Basics)</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>Web & Backend</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Spring Boot, Spring MVC</li>
+                <li>Hibernate / JPA</li>
+                <li>RESTful APIs</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>Databases & Tools</h3>
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Postman (API Testing)</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </div>
+
+        <div class="skill-category">
+            <h3>Core CS</h3>
+            <ul>
+                <li>Data Structures & Algorithms</li>
+                <li>Object-Oriented Programming</li>
+                <li>Software Testing Fundamentals</li>
+                <li>SDLC Models</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="experience">
+    <h2>Internships & Experience</h2>
+
+    <div class="experience-card">
+        <h3>Rooman Technologies – Java Full-Stack Trainee</h3>
+        <p class="exp-meta">Aug 2024 – Present | Bengaluru</p>
+        <ul>
+            <li>Developed Spring Boot applications with REST APIs and MySQL.</li>
+            <li>Implemented authentication and authorization using Spring Security.</li>
+            <li>Performed API testing and debugging using Postman.</li>
+        </ul>
+    </div>
+
+    <div class="experience-card">
+        <h3>Artificial Intelligence Intern – Slash Mark</h3>
+        <p class="exp-meta">May 2024 – July 2024 | Remote</p>
+        <ul>
+            <li>Worked on stock price prediction using machine learning models.</li>
+            <li>Handled data preprocessing and model evaluation.</li>
+        </ul>
+    </div>
+
+    <div class="experience-card">
+        <h3>Software Testing Intern – TechnoHack</h3>
+        <p class="exp-meta">2023 | Remote</p>
+        <ul>
+            <li>Executed manual and API test cases using Postman.</li>
+            <li>Practiced black-box and white-box testing techniques.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<!-- Projects -->
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+
+        <!-- SIH 2024 -->
+        <div class="project-card">
+            <h4>Smart India Hackathon 2024 – Green Deal</h4>
+            <p>
+                <strong>Team Lead</strong> | Developed a farmer-to-consumer digital
+                marketplace focused on sustainable agriculture.
+            </p>
+            <ul>
+                <li>Tech Stack: Flutter, Node.js, MongoDB, Ethereum</li>
+                <li>Features: Direct sales, AI-based recommendations, secure transactions</li>
+            </ul>
+            <div class="project-links">
+                <a href="#" onclick="openSIHModal()">Details</a>
+                <a href="https://github.com/yourusername/green-deal" target="_blank">Code</a>
+            </div>
+        </div>
+
+        <!-- Bus Ticket Booking -->
+        <div class="project-card">
+            <h4>Bus Ticket Booking System</h4>
+            <p>
+                Full-stack web application for online bus ticket booking
+                with authentication and PDF ticket generation.
+            </p>
+            <ul>
+                <li>Tech Stack: Spring Boot, MySQL, Thymeleaf</li>
+                <li>Features: Seat selection, Spring Security, iText PDF receipts</li>
+            </ul>
+            <div class="project-links">
+                <a href="http://localhost:8080/ticket/list" target="_blank">Live Demo</a>
+                <a href="https://github.com/yourusername/bus-ticket" target="_blank">Code</a>
+            </div>
+        </div>
+
+        <!-- Stock Price Prediction -->
+        <div class="project-card">
+            <h4>Stock Price Prediction using Machine Learning</h4>
+            <p>
+                Machine learning project to predict stock price trends
+                using historical time-series data.
+            </p>
+            <ul>
+                <li>Tech Stack: Python, Pandas, NumPy, Scikit-learn</li>
+                <li>Applied regression models and performance evaluation metrics</li>
+            </ul>
+            <div class="project-links">
+                <a href="https://github.com/yourusername/stock-price-prediction"
+                   target="_blank">Code</a>
+            </div>
+        </div>
+
+        <!-- API Testing -->
+        <div class="project-card">
+            <h4>REST API Testing using Postman</h4>
+            <p>
+                API testing project focused on validating REST endpoints,
+                request/response flows, and error handling.
+            </p>
+            <ul>
+                <li>Designed Postman collections with automated test scripts</li>
+                <li>Validated CRUD operations, status codes, and authorization</li>
+            </ul>
+            <div class="project-links">
+                <a href="https://github.com/yourusername/api-testing-postman"
+                   target="_blank">Postman Collection</a>
+            </div>
+        </div>
+
+        <!-- Quality Improvement -->
+        <div class="project-card">
+            <h4>Quality Improvement – Statistical Z-Test Analysis</h4>
+            <p>
+                Java-based statistical analysis project to evaluate
+                defect reduction using pooled proportion Z-tests.
+            </p>
+            <ul>
+                <li>Implemented hypothesis testing at α = 5%</li>
+                <li>Calculated efficiency improvement percentages</li>
+            </ul>
+            <div class="project-links">
+                <a href="https://www.programiz.com/online-compiler/97DG1ewbyOlee"
+                   target="_blank">Live Demo</a>
+                <a href="#" onclick="showQualityCode()">View Code</a>
+            </div>
+        </div>
+
+        <!-- Innospark -->
+        <div class="project-card">
+            <h4>Innospark 1.0 Hackathon – Auto Brake Illumination</h4>
+            <p>
+                Embedded systems project to automatically activate
+                rear illumination during braking for tractor trolleys.
+            </p>
+            <ul>
+                <li>Tech Stack: Arduino, IR Sensors, Embedded C</li>
+                <li>Focused on road safety in rural environments</li>
+            </ul>
+            <div class="project-links">
+                <a href="#" onclick="openInnosparkModal()">Demo</a>
+                <a href="https://github.com/yourusername/autobrake-innospark"
+                   target="_blank">Code</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- HACKATHONS -->
+<section id="hackathons" class="experience">
+    <h2>Hackathons & Competitions</h2>
+
+    <div class="experience-card">
+        <h3>Smart India Hackathon (SIH) 2024</h3>
+        <ul>
+            <li>National-level hackathon under Agriculture & Rural Development theme.</li>
+            <li>Role: Team Lead</li>
+        </ul>
+    </div>
+
+    <div class="experience-card">
+        <h3>Innospark 1.0 Hackathon</h3>
+        <ul>
+            <li>Project: Auto-Brake Illumination System</li>
+            <li>Tech: Arduino, IR Sensors, Embedded C</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="experience">
+    <h2>Certifications & Workshops</h2>
+
+    <div class="experience-card">
+        <ul>
+            <li>Microsoft Copilot for Productivity – Microsoft & LinkedIn</li>
+            <li>Advanced Software Engineering – Walmart Global Tech</li>
+            <li>Cloud Computing & Distributed Systems – NPTEL</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<!-- Contact -->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+
+    <p class="contact-subtitle">
+        Open to internships and full-time SDE opportunities.  
+        Feel free to reach out anytime.
+    </p>
+
+    <div class="contact-grid">
+
+        <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h4>Email</h4>
+            <p>
+                <a href="rismhadrisimhadri@gmail.com">
+                    Gmail
+                </a>
+            </p>
+        </div>
+
+        <div class="contact-card">
+            <i class="fab fa-linkedin"></i>
+            <h4>LinkedIn</h4>
+            <p>
+                <a href="https://linkedin.com/in/simhadri-rasineni"
+                   target="_blank">
+                    LinkedIn
+                </a>
+            </p>
+        </div>
+
+        <div class="contact-card">
+            <i class="fab fa-github"></i>
+            <h4>GitHub</h4>
+            <p>
+                <a href="https://github.com/SimhadriRasineni"
+                   target="_blank">
+                    github
+                </a>
+            </p>
+        </div>
+
+        <div class="contact-card">
+            <i class="fas fa-file-download"></i>
+            <h4>Resume</h4>
+            <p>
+                <a href="msfinal resume.pdf" download>
+                    Download Resume
+                </a>
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Modals -->
+<div id="sihModal" class="modal"></div>
+<div id="innosparkModal" class="modal"></div>
+<div id="qualityModal" class="modal"></div>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
